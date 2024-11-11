@@ -1,0 +1,16 @@
+# gulpfile
+# gulpfile.js
+
+# dependencies
+node_modules/
+
+# security
+# **/config/**
+# .env
+
+# production
+*.min.*
+
+# misc
+.DS_Store
+npm-debug.log*
