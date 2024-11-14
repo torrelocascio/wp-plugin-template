@@ -21,7 +21,7 @@ function App() {
         </a>
       </header> */}
 
-      <h3>Inject React Form</h3>
+      <h3>React App Is Here</h3>
       {/* FORM */}
     </div>
   );
