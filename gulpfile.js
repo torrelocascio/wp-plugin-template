@@ -20,12 +20,13 @@
 const { src, dest, series, parallel } = require('gulp');
 const del           = require('del');//
 const concat        = require('gulp-concat');//
-const sass          = require('gulp-sass');//
 const csso          = require('gulp-csso');//
 const autoprefixer  = require('gulp-autoprefixer');//
 const sourcemaps    = require('gulp-sourcemaps');//
 const uglify        = require('gulp-uglify');//
 const babel         = require('gulp-babel');//
+const sass = require("gulp-sass")(require("sass"));
+
 
 sass.compiler = require( 'node-sass' );
 
@@ -68,7 +69,7 @@ const liveFiles = [
 
 // Target the folder to delete/replace:
 const localInstall =
-  "/Users/torrelocascio/Documents/Tech/WP_Sites/react-into-wp/app/public/wp-content/plugins/inject-plugin-1.0.0";
+  "/Users/torrelocascio/Documents/Tech/WP_Sites/react-into-wp/app/public/wp-content/plugins/wp-plugin-template-1.0.0";
 
 
 // ***** Public File Handlers ***** //
